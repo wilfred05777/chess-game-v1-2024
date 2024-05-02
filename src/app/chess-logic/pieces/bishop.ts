@@ -1,3 +1,6 @@
+// https://www.youtube.com/watch?v=fJIsqZmQVZQ
+// https://github.com/awsomeCStutorials/chess-game
+
 import { FENChar, Coords, Color } from "../models";
 import { Piece } from './piece';
 
@@ -10,7 +13,7 @@ export class Bishop extends Piece{
     { x:-1, y:-1},
   ];
 
-  constructor(private piece:Color){
+  constructor(private pieceColor:Color){
     super(pieceColor);
     this._FENChar = pieceColor === Color.White ? FENChar.WhiteBishop : FENChar.BlackBishop;
   }
