@@ -1,4 +1,5 @@
 // https://www.youtube.com/watch?v=fJIsqZmQVZQ
+// https://github.com/awsomeCStutorials/chess-game
 
 export abstract class Piece{
   protected abstract _FENChar: FENChar;
